@@ -1,0 +1,115 @@
+.loginSection {
+  height: 100vh;
+}
+
+.loginBox {
+  margin-top: 25vh;
+  height: 50vh;
+  position: relative;
+  border-radius: 10px;
+}
+
+.loginProfile img {
+  width: 12vh;
+  position: absolute;
+  top: -8vh;
+  border-radius: 60px;
+  left: 15vw;
+  
+}
+.loginform{
+  margin-top: 8vh;
+  width: 50vw;
+ 
+}
+
+.Signupdp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#0d6efd;
+  width: 100%;
+  height: 100%;
+  
+}
+.Signupdp  label{
+  width: 80px;
+  height: 40px;
+  margin-top: 30px;
+}
+.Signupdp labelNam{
+  width: 100px;
+}
+.col{
+  margin-top: 350px;
+}
+.container1{
+  width: 130vh;
+  position: relative;
+  left: 75vh;
+  top: 20vh;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.container2{
+  position: relative;
+bottom: 55vh;
+left: 10vh;
+}
+.container3{
+  position: relative;
+  top: 10vh;
+  left: -5vh;
+}
+.text1{
+  width: 35vh;
+position: relative;
+left: 5vh;
+top: 8vh;
+font-weight: bold;
+color: blue;
+font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+  display: flex;
+  justify-content: inherit;
+  margin-top: -8vh;
+}
+.text2{
+  position: relative;
+left: 28vh;
+bottom: 10vh;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginProfile{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ justify-items: center;
+}
+
+/* @media  (min-width:"1120*600") {
+  display: flex: ;;
+  left: 30vh;
+
+} */
+.text2{
+  position: absolute;
+  
+  }
+  
+  @media (max-width:600px) {
+      .text2  {
+          
+  
+          position: absolute;
+          top: 500px;
+          left: 10px;
+      }
+  
+  
+  }
+  
